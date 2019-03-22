@@ -1,0 +1,32 @@
+<!-- Created by FAWAD ALI https://github.com/9inpachi -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Task 2 3D - CERN HSF</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="left-actions">
+    <div class="actions-container">
+      <h2>Particle Tracking (3D)</h2>
+      <hr>
+      <div class="btn-wrapper">
+        <button id="useDetectorData" onclick="showData('detector')">Use Detector Data</button>
+        <button id="useTrueData" onclick="showData('true')">Use True Data</button>
+      </div>
+      <hr>
+      <p><small>Scroll to zoom</small></p>
+    </div>
+  </div>
+  <div id="objectContainer"></div>
+  <p id="overlayTxt">Showing "Detector Data"</p>
+
+  <script src="assets/three.js" type="text/javascript"></script>
+  <script src="assets/task2-combined-3d.js" type="text/javascript"></script>
+  
+</body>
+
+</html>
