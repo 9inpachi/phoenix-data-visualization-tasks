@@ -1,4 +1,4 @@
-# Tasks for Pheonix - Interactive 3D Data Visualization Project
+# Tasks for the Pheonix Interactive Event Visualization project
 
 Use a web server to run the files.
 
