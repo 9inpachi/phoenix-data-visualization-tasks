@@ -1,3 +1,5 @@
+const rotateVal = 0.2;
+
 var objContainer = document.getElementById('objectContainer');
 var theObject, camera, scene, renderer, clickCounter = 0;
 var objectInfo = document.getElementById('objectInfo');
@@ -75,19 +77,19 @@ function render() {
 var rotateY = document.getElementById('rotateY');
 rotateY.onclick = function () {
     if (theObject) {
-        theObject.rotation.y += 0.2;
+        theObject.rotation.y += rotateVal;
     }
 }
 var rotateX = document.getElementById('rotateX');
 rotateX.onclick = function () {
     if (theObject) {
-        theObject.rotation.x += 0.2;
+        theObject.rotation.x += rotateVal;
     }
 }
 var rotateZ = document.getElementById('rotateZ');
 rotateZ.onclick = function () {
     if (theObject) {
-        theObject.rotation.z += 0.2;
+        theObject.rotation.z += rotateVal;
     }
 }
 
