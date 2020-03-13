@@ -1,6 +1,6 @@
 # Tasks for the Pheonix Interactive Event Visualization project
 
-Use a web server to run the files.
+View online or use a web server to run the files.
 
 ## Task 1 - Loading and rotating geometry - [View](https://9inpachi.github.io/phoenix-data-visualization-tasks/task1/)
 1. Used three.js to load 'Pix.obj', animated the object to rotate continuously and mapped buttons to its rotation.
